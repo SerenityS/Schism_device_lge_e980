@@ -22,3 +22,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geefhd_open_eu BUILD_FINGERPRINT=lg
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch
+
+# Copy device specific prebuilt files.
+PRODUCT_COPY_FILES += \
+    vendor/schism/prebuilt/bootanimations/BOOTANIMATION-1080x1920.zip:system/media/bootanimation.zip
