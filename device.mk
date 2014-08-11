@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
+
 PRODUCT_COPY_FILES += \
        $(LOCAL_PATH)/keypad_8064.kl:system/usr/keylayout/gk-keypad-8064.kl
 
