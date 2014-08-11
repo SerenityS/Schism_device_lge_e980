@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/ueventd.geefhd.rc:root/ueventd.geefhd.rc
 	
 # Alsa audio For Korean varient 
+# Thanks to Cantata
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/alsa/alsa_amixer:system/xbin/alsa_amixer \
 	$(LOCAL_PATH)/alsa/alsa_amixer:system/xbin/alsa_aplay \
@@ -85,10 +86,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
-
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/init.qcom.post_boot.sh:system/etc/wifi/init.qcom.post_boot.sh
-
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=480
